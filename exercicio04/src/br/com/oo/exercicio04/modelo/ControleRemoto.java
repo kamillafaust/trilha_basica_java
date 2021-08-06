@@ -21,7 +21,7 @@ public class ControleRemoto {
     }
 
     public String aumentarCanal(Televisao tv){
-        if(tv.getCanal() < 88){
+        if(tv.getCanal() < 80){
             tv.setCanal(tv.getCanal() + 1);
             return "O canal da televisão aumentou para " +  tv.getCanal() + ".";
         }
@@ -37,11 +37,11 @@ public class ControleRemoto {
     }
 
     public String trocarCanal(Televisao tv, int canal){
-        if(tv.getCanal() > 0 || tv.getCanal() < 80){
-            tv.setCanal(canal);
+        tv.setCanal(canal);
+        if(tv.getCanal() > 0 && tv.getCanal() < 81){
             return "A televisão mudou para o canal " + tv.getCanal() + ".";
         }
-        return "Canal inexistente";
+        return "Canal inexistente.";
     }
 
     public String consultarSomECanalTv(Televisao tv){
