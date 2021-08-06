@@ -2,7 +2,7 @@ package br.com.oo.exercicio02.util;
 
 import br.com.oo.exercicio02.modelo.AgendaMetodo;
 import br.com.oo.exercicio02.entidade.PessoaEntidade;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import javax.swing.*;
 import java.util.Collections;
