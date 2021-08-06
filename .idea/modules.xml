@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bytebank-herdado/bytebank-herdado.iml" filepath="$PROJECT_DIR$/bytebank-herdado/bytebank-herdado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank_composto/bytebank_composto.iml" filepath="$PROJECT_DIR$/bytebank_composto/bytebank_composto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank_herdado_conta/bytebank_herdado_conta.iml" filepath="$PROJECT_DIR$/bytebank_herdado_conta/bytebank_herdado_conta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio01/exercicio01.iml" filepath="$PROJECT_DIR$/exercicio01/exercicio01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio01_lista/exercicio01_lista.iml" filepath="$PROJECT_DIR$/exercicio01_lista/exercicio01_lista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio02/exercicio02.iml" filepath="$PROJECT_DIR$/exercicio02/exercicio02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_io/java_io.iml" filepath="$PROJECT_DIR$/java_io/java_io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_pacotes_alura/java_pacotes_alura.iml" filepath="$PROJECT_DIR$/java_pacotes_alura/java_pacotes_alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_pilha/java_pilha.iml" filepath="$PROJECT_DIR$/java_pilha/java_pilha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sintaxe_variaveis_e_fluxo/sintaxe_variaveis_e_fluxo.iml" filepath="$PROJECT_DIR$/sintaxe_variaveis_e_fluxo/sintaxe_variaveis_e_fluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trilha_java.iml" filepath="$PROJECT_DIR$/trilha_java.iml" />
+    </modules>
+  </component>
+</project>
