@@ -9,7 +9,7 @@ import javax.swing.*;
 
 public class TelevisaoTest {
 
-    Televisao tv = new Televisao(45, 15);
+    Televisao tv = new Televisao(45, 79);
     ControleRemoto controle = new ControleRemoto();
 
     //@Test
@@ -42,7 +42,7 @@ public class TelevisaoTest {
         System.out.println(mensagem);
     }
 
-    @Test
+    //@Test
     public void testTrocarCanalDeTv() {
         int canal = Integer.parseInt(JOptionPane.showInputDialog("Digite o canal que deseja assistir: "));
         String mensagem = controle.trocarCanal(tv, canal);
