@@ -20,7 +20,7 @@ public class MetodosTest {
         metodo.retornaDadosPessoa(nome, altura, dataNascimento);
     }
 
-    @Test
+    //@Test
     public void testImprimeIdade(){
         String nome = JOptionPane.showInputDialog("Digite o seu nome: ");
         int ano = Integer.parseInt(JOptionPane.showInputDialog("Digite o ano do seu nascimento: "));

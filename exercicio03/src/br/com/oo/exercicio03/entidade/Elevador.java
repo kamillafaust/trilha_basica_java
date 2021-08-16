@@ -5,14 +5,11 @@ public class Elevador {
     private int andarAtual;
     private int capacidade;
 
-    public Elevador(){
-    }
 
     public Elevador(int capacidade, int andarAtual) {
         this.capacidade = capacidade;
         this.andarAtual = andarAtual;
     }
-
 
     public int getAndarAtual() {
         return andarAtual;

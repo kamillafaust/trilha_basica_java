@@ -1,16 +1,14 @@
 package br.com.oo.exercicio02.entidade;
 
-public class PessoaEntidade implements Comparable<PessoaEntidade>{
+public class Pessoa implements Comparable<Pessoa>{
 
     private String nome;
     private int idade;
     private float altura;
     private int indice;
 
-    public PessoaEntidade(){
 
-    }
-    public PessoaEntidade(String nome, int idade, float altura) {
+    public Pessoa(String nome, int idade, float altura) {
         this.nome = nome;
         this.idade = idade;
         this.altura = altura;
@@ -49,7 +47,7 @@ public class PessoaEntidade implements Comparable<PessoaEntidade>{
     }
 
     @Override
-    public int compareTo(PessoaEntidade outroNome) {
+    public int compareTo(Pessoa outroNome) {
         return this.nome.compareTo(outroNome.getNome());
     }
 }

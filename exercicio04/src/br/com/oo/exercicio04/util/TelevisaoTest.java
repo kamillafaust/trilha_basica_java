@@ -3,13 +3,14 @@ package br.com.oo.exercicio04.util;
 import br.com.oo.exercicio04.entidade.Televisao;
 import br.com.oo.exercicio04.modelo.ControleRemoto;
 import org.junit.Test;
-
-
 import javax.swing.*;
+
+//volume máximo programado em: 100
+//canal máximo programado em: 80
 
 public class TelevisaoTest {
 
-    Televisao tv = new Televisao(45, 79);
+    Televisao tv = new Televisao(0, 0); //passar os parâmetros desejados antes de executar cada teste unitário
     ControleRemoto controle = new ControleRemoto();
 
     //@Test

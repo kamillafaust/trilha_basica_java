@@ -11,12 +11,6 @@ public class Pessoa {
     public Pessoa() {
     }
 
-    public Pessoa(String nome, Date dataNascimento, String altura) {
-        this.nome = nome;
-        this.dataNascimento = dataNascimento;
-        this.altura = altura;
-    }
-
     public String getNome() {
         return nome;
     }
